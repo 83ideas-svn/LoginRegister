@@ -1,5 +1,5 @@
 {
-    "name": "custome/auth",
+    "name": "laravel/auth",
     "description": "This is used to Custome login and register form",
     "type": "library",
     "license": "MIT",
