@@ -1,5 +1,5 @@
 {
-    "name": "custome/authentication",
+    "name": "custom/authentication",
     "description": "This is used to Custome login and register form",
     "type": "library",
     "license": "MIT",
@@ -10,8 +10,8 @@
     },
     "authors": [
         {
-            "name": "Prince",
-            "email": "princek.83ideas@gmail.com"
+            "name": "83ideas",
+            "email": "83ideas.svn@gmail.com"
         }
     ],
     "minimum-stability": "dev",
