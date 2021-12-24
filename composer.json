@@ -1,0 +1,26 @@
+{
+    "name": "custome/auth",
+    "description": "This is used to Custome login and register form",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Custome\\Auth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Prince",
+            "email": "princek.83ideas@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+         
+        "laravel": {
+            "providers": [
+                "Custome\\Auth\\CustomeAuthServiceProvider"
+            ]
+        }
+    }
+}
