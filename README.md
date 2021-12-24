@@ -1,17 +1,17 @@
 # LoginRegister
-Custome Authentication  is a minimal, simple implementation of all of Laravel's authentication features, including login, registration, password reset, email verification, and password confirmation.  Custome Auth default view layer is made up of simple Blade templates. 
+Custom Authentication  is a minimal, simple implementation of all of Laravel's authentication features, including login, registration, password reset, and password confirmation.  Custom Auth default view layer is made up of simple Blade templates. 
 
 # Installation
 Please check the official laravel installation guide for server requirements before you start. Official Documentation
 
 # Package installation
-You may install Laravel Custome Authentication via the Composer package manager:
+You may install Laravel Custom Authentication via the Composer package manager:
 
 # Step 1 :
-    composer require custome/authentication
+    composer require custom/authentication
 
 # Step 2 :
-Next, you should publish the Custome Authentication configuration and blade files using the vendor:publish Artisan command. The Custome Authentication configuration file will be placed in your application's config directory:
+Next, you should publish the Custom Authentication configuration and blade files using the vendor:publish Artisan command. The Custom Authentication configuration file will be placed in your application's config directory:
 
     php artisan vendor:publish --provider="Custome\Auth\CustomeAuthServiceProvider"
 
@@ -19,7 +19,7 @@ Next, you should publish the Custome Authentication configuration and blade file
 Now You create your Database. Then update your Database name in .env file
 
 # Step 4 :
-Finally, you should run your database migrations. Custome Authentication will create user database table in which to store data:
+Finally, you should run your database migrations. Custom Authentication will create user database table in which to store data:
 
     php artisan migrate
  
